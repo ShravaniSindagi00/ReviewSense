@@ -1,0 +1,134 @@
+/* General body styling */
+body {
+  background-color: #f2f5f7;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+/* Container spacing */
+.container {
+  max-width: 1300px;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #d7d6d6;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Header styling */
+h1 {
+  font-size: 2.5rem;
+  text-align: center;
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* Input Section */
+#input-section {
+  max-width: 600px;
+  margin: 20px auto;
+}
+
+#product-url {
+  border-radius: 30px;
+  padding: 10px 15px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#product-url:focus {
+  border-color: #3498db;
+  box-shadow: 0px 4px 8px rgba(0, 123, 255, 0.3);
+}
+
+#fetch-button {
+  border-radius: 30px;
+  padding: 10px 20px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#fetch-button:hover {
+  background-color: #217dbb;
+  cursor: pointer;
+}
+
+/* Results Section */
+#results-section {
+  background-color: #ffffff;
+  padding: 25px;
+  margin-top: 20px;
+  border-radius: 12px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease-in-out;
+}
+
+#results-section:hover {
+  transform: translateY(-5px);
+}
+
+h2 {
+  font-size: 1.8rem;
+  color: #34495e;
+  margin-bottom: 20px;
+}
+
+/* Graphs Section */
+#charts {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  gap: 60px;
+  flex: 1;
+  min-width: 45%;
+}
+
+#charts .col-md-4 {
+  padding: 10px;
+}
+
+canvas {
+    display: block;
+    max-height: 350px;
+    max-width: 100%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Graph Titles */
+h4 {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #2c3e50;
+  margin-bottom: 10px;
+}
+
+/* Recommendation Section Styling */
+#recommendation h5 {
+  font-weight: bold;
+  color: #28a745;
+}
+
+#recommendation-text {
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+/* Spinner styling */
+.spinner-border {
+  color: #3498db;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 1.1rem;
+  color: #555;
+}
